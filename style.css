@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Ysabeau:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poltawski+Nowy&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.sidebar {
+    background-color: rgb(43, 116, 176);
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Varela Round', sans-serif;
+    width: 280px;
+    height: 100vh;
+
+
+}
+
+.sidebar nav {
+    padding: 30px;
+
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 11px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 85vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /* background-color: gray; */
+    height: 310px;
+    width: 1050px;
+    margin: 174px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+.hello {
+    font-size: 60px;
+
+}
+
+.name {
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Slab', serif;
+    font-stretch: semi-expanded;
+}
+
+.about {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.moreAbout {
+    font-size: 12px;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto Slab', serif;
+    font-stretch: semi-expanded;
+    margin-top: 15px;
+
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+.buttons button {
+    padding: 11px 13px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(31, 109, 204);
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0px 4px;
+    border-width: rgb(4, 11, 23);
+
+}
+
+.buttons button:hover {
+    background-color: white;
+    color: rgb(31, 109, 204);
+}
+
+.devPic img {
+    height: 310px;
+
+}
+
+.contactform {
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Varela Round', sans-serif;
+    /* padding-top: 80px; */
+    padding: 10px 35px;
+}
+
+.contactform h1 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poltawski Nowy', serif;
+    font-stretch: semi-expanded;
+    /* font-weight: bold; */
+    font-size: 40px;
+    color: rgb(88, 86, 86);
+}
+
+.contactform form div {
+    padding: 10px 0;
+
+}
+
+#info_privacy {
+    font-size: 12px;
+    color: rgb(188, 104, 104);
+    margin: 0px 14px;
+}
